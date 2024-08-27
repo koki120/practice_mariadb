@@ -19,13 +19,15 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
+        working-directory: ./docusaurus
         run: npm install
 
       - name: Build Docusaurus
+        working-directory: ./docusaurus
         run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./docusaurus/build
