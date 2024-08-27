@@ -22,7 +22,7 @@ jobs:
         run: npm install --frozen-lockfile
       - name: Build website
         working-directory: ./docusaurus
-        run: npm build
+        run: npm run build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
