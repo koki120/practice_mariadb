@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpalactice_mariadb=self.webpackChunkpalactice_mariadb||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/practice_mariadb/blog","blogTitle":"Blog","authorsListPath":"/practice_mariadb/blog/authors"}')}}]);

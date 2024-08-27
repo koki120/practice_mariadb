@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpalactice_mariadb=self.webpackChunkpalactice_mariadb||[]).push([[582],{5181:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/practice_mariadb/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
