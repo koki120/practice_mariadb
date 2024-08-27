@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpalactice_mariadb=self.webpackChunkpalactice_mariadb||[]).push([[9647],{7121:(e,a,r)=>{r.r(a),r.d(a,{default:()=>d});r(6540);var c=r(4164),s=r(1213),t=r(7559),u=r(2831),i=r(781),l=r(4848);function d(e){return(0,l.jsx)(s.e3,{className:(0,c.A)(t.G.wrapper.docsPages),children:(0,l.jsx)(i.A,{children:(0,u.v)(e.route.routes)})})}}}]);
