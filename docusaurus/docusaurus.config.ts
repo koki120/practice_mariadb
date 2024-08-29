@@ -70,10 +70,8 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        { to: '/blog', label: 'Blog', position: 'left' },
-      ],
+          label: '目次',
+        },      ],
     },
     footer: {
       style: 'dark',

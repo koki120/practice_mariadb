@@ -1,3 +1,10 @@
+# SQLについて
+
+実行環境は`mariadb`を使用している。
+
+使用するテーブルは以下の通りである。
+
+```sql
 -- Table: Customers
 CREATE TABLE Customers (
     CustomerCode VARCHAR(50) PRIMARY KEY,
@@ -111,3 +118,4 @@ INSERT INTO Inventory (InventoryCode, ProductCode, Quantity) VALUES
 ('I003', 'P003', 75),
 ('I004', 'P004', 60),
 ('I005', 'P005', 40);
+```
